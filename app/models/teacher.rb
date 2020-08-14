@@ -11,6 +11,10 @@ class Teacher < ActiveRecord::Base
         self.apples.count
     end
 
+    def how_many_apples?
+        puts "#{self.last_name} has #{self.apple_count} apples!"
+    end
+
     def apples_ready_to_eat
         #apples.select do |apple|
          #   apple.status == "ripe"
