@@ -19,4 +19,10 @@ one = GradeLevel.create(teacher: park, student: samantha)
 two = GradeLevel.create(teacher: park, student: tifanni)
 three = GradeLevel.create(teacher: gooden, student: augusto)
 
+Locker.create(location: "East Wing", number: 01, combination: 1234, book_count: 0, student: augusto)
+Locker.create(location: "East Wing", number: 02, combination: 4321, book_count: 0, student: tifanni)
+Locker.create(location: "East Wing", number: 03, combination: 3142, book_count: 0, student: samantha)
+Locker.create(location: "East Wing", number: 04, combination: 9242, book_count: 0)
+Locker.create(location: "West Wing", number: 01, combination: 3762, book_count: 0)
+
 
